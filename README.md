@@ -43,7 +43,7 @@ Ce fichier définit la classe `MyDataset` pour créer un ensemble de données pe
 
 ### `Module/`
 Le répertoire définit un modèle **Transformer** comprenant plusieurs composants essentiels :
-- **Encoders et Decoders** : Le *Encoder* transforme une séquence d'entrée en un espace latent, et le *Decoder* génère la sortie basée sur cette représentation.
+- **Encodeurs et Decodeurs** : Le *Encoder* transforme une séquence d'entrée en un espace latent, et le *Decoder* génère la sortie basée sur cette représentation.
 - **Mécanisme d'attention** : Le mécanisme de **Self-Attention** aide à comprendre les relations entre différentes parties d'une séquence. Il inclut aussi une attention multi-tête (*multi-head attention*).
 - **Couches Feedforward** : Après l'attention, des couches de réseaux de neurones feedforward sont utilisées.
 - **Encodage positionnel** : Le modèle Transformer n'ayant pas de notion de position des éléments dans une séquence, des encodages positionnels sont ajoutés pour indiquer la position des tokens.
